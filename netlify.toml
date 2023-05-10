@@ -1,0 +1,8 @@
+[build.environment]
+  NPM_FLAGS = "--version"
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
